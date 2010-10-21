@@ -1,0 +1,145 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" resourceKey="AltaUsuario.title"/>
+    <Property name="name" type="java.lang.String" value="AltaUsuario" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                      <Component id="button2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="button1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="textField3" alignment="0" max="32767" attributes="1"/>
+                          <Component id="textField1" alignment="0" pref="113" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                      <Component id="label2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="textField2" min="-2" pref="105" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="label4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="textField2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label1" min="-2" max="-2" attributes="0"/>
+                          <Component id="textField1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textField3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="label2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="button1" min="-2" max="-2" attributes="0"/>
+                  <Component id="button2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="106" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="labelNombre" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="labelNombre.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="textField1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="textFieldNombre" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="textFieldNombre.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="labelApellido" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="labelApellido.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="textField2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="textFieldApellido" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="textFieldApellido.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="labelCedula" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="labelCedula.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="textField3">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="textFieldCedula" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="textFieldCedula.text"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="button1">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="Guardar.label"/>
+        <Property name="name" type="java.lang.String" value="Guardar" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="button2">
+      <Properties>
+        <Property name="label" type="java.lang.String" resourceKey="buttonCancelar.label"/>
+        <Property name="name" type="java.lang.String" value="buttonCancelar" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="labelAltaUsuario.font"/>
+        <Property name="name" type="java.lang.String" value="labelAltaUsuario" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="labelAltaUsuario.text"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
